@@ -1,0 +1,55 @@
+
+import type{ HandHistory } from './types';
+
+export const mockHandHistory: HandHistory[] = [
+  {
+    id: 'hh1',
+    date: '2025-06-15T10:30:00Z',
+    gameType: 'NL Hold\'em',
+    stakes: '$1/$2',
+    myHand: ['As', 'Ks'],
+    winningHand: ['As', 'Ks', 'Qs', 'Js', '10s'],
+    potSize: 150.50,
+    result: 148.50,
+  },
+  {
+    id: 'hh2',
+    date: '2025-06-15T09:45:00Z',
+    gameType: 'PLO',
+    stakes: '$2/$5',
+    myHand: ['Ad', 'Ac', '5h', '5c'],
+    winningHand: ['Kh', 'Qh', 'Jd', '10d'],
+    potSize: 450.00,
+    result: -200.00,
+  },
+  {
+    id: 'hh3',
+    date: '2025-06-14T23:15:00Z',
+    gameType: 'NL Hold\'em',
+    stakes: '$0.50/$1',
+    myHand: ['7d', '8d'],
+    winningHand: ['7d', '8d', '9d', '10d', 'Jd'],
+    potSize: 55.25,
+    result: 54.25,
+  },
+  {
+    id: 'hh4',
+    date: '2025-06-14T21:00:00Z',
+    gameType: 'NL Hold\'em',
+    stakes: '$5/$10',
+    myHand: ['Qc', 'Qh'],
+    winningHand: ['Ah', 'Ad', 'As', 'Ac'],
+    potSize: 1250.00,
+    result: -500.00,
+  },
+   {
+    id: 'hh5',
+    date: '2025-06-14T20:30:00Z',
+    gameType: 'NL Hold\'em',
+    stakes: '$1/$2',
+    myHand: ['2c', '7h'],
+    winningHand: ['2c', '7h', 'Kc', 'Kd', 'Kh'],
+    potSize: 25.00,
+    result: 0,
+  },
+];
